@@ -45,8 +45,8 @@ class Solution(object):
         f = 0
         s = 1
         while n > 0:
-            g += f
-            f = g - f
+            s += f
+            f = s - f
             n -= 1
         return f
 ```
