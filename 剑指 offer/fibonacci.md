@@ -40,7 +40,7 @@ class Solution(object):
 速度快而且不用担心栈溢出
 
 ```python
-class Solution(self):
+class Solution(object):
     def Fibonacci(self, n):
         f = 0
         s = 1
