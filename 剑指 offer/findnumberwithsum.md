@@ -14,7 +14,7 @@
 
 ```python
 # -*- coding:utf-8 -*-
-class Solution():
+class Solution(object):
     def FindNumbersWithSum(self, array, tsum):
         # write code here
         if array == []:
